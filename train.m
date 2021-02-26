@@ -1,4 +1,4 @@
-negativeFolder = 'C:\Users\sim_b\OneDrive\Desktop\no_mask'
+negativeFolder = 'no_mask'
 NumStages = 14;
 FAR = 0.6;
 

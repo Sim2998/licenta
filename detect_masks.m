@@ -1,7 +1,7 @@
 detector = vision.CascadeObjectDetector('maskdetectorr_14_60.xml');
 counter = 0;
 for k = 45:60
-    filename = ['C:\Users\sim_b\OneDrive\Desktop\LICENTA\dataset - Copy\with_mask\new_mask\images\' num2str(k) '.jpg'];
+    filename = ['images\' num2str(k) '.jpg'];
     I = imread(filename);
     release(detector);
     bbox = step(detector, I)
